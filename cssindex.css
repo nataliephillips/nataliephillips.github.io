@@ -1,6 +1,10 @@
 h1{
-    color:red;
+    color:darkblue;
     text-decoration: underline;
+    background-color: pink
+}
+h3{
+    font-style: italic;
 }
 ul a{
     color: pink;
