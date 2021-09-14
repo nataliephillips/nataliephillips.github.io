@@ -1,5 +1,6 @@
 h1{
-    color:red
+    color:red;
+    text-decoration: bold;
 }
 ul a{
     color: pink;
