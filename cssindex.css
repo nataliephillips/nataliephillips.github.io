@@ -10,5 +10,9 @@ ul a{
     text-decoration: none;
 }
 .pages {
-    text-align: center;
+    margin: auto;
+    text-decoration: none;
+    text-align:left;
+    list-style-type: none;
+    display: inline-block;
 }
