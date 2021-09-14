@@ -1,10 +1,9 @@
 h1{
     color:darkblue;
-    text-decoration: underline;
-    background-color: pink
 }
 h3{
     font-style: italic;
+    color: lightblue;
 }
 ul a{
     color: pink;
