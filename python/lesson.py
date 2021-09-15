@@ -22,6 +22,38 @@ name = 'alice'
 if name == 'alice': #this is the condition statement in the expression
     print ('hi alice') #if the condition is true then the function will execute this
 print ('done')
+#block is signified by indentation, begin and ends by the same indentation
+password = "swordfish"
+if password == "swordfish":
+    print ("access grantded")
+else: 
+    print ("wrong password")
+# to create else if statements use the word "elif"
+if password == "swordfish":
+    print ("access grantded")
+elif password == "hello":
+    print ("wrong, but hello")
+else: 
+    print ("wrong password")
+#truthy and falsey values:
+#if you want to be more explicate
+print ("enter a name")
+name = input()
+if name:
+    print ("Thank you for your name, " + name)
+else: 
+    print ("you need to enter name")
+#while statements:
 
-
-
+spam = 0
+while spam < 5:
+    print  ("hi")
+    spam = spam +1
+# this while loop will iterate 5 times
+#similar to if statements, becuase it is a conditional statement, but until the condition is false
+# FOR LOOPS: 
+print ("my name is ")
+for i in range (5):
+    print ("jimmy 5 times: " + str(i))
+# don't need to add it numbers explicitly
+#  
