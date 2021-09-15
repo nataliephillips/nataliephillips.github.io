@@ -20,3 +20,11 @@ ul a{
 .links:hover { 
     background-color: lightblue;
   }
+
+#word:hover{
+    font-weight: bold;
+}
+
+#president:hover{
+    font-weight:bold
+}
