@@ -17,6 +17,6 @@ ul a{
     display: inline-block;
 }
 
-.class a:hover { 
+a:hover { 
     background-color: lightblue;
   }
