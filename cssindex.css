@@ -15,7 +15,6 @@ a{
     text-align:center;
     list-style-type: none;
     display: inline-block;
-
 }
 
 .links:hover { 
@@ -29,7 +28,7 @@ a{
     font-weight: bold;
 }
 #president:hover{
-    font-weight:bold
+    font-weight: bold;
 }
 @media only screen and (max-width: 600px) {
     body {
