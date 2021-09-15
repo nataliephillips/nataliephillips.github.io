@@ -35,7 +35,9 @@ a{
       background-color: lightblue;
     }
   }
-
+.header {
+    font-style: italic;
+}
 .row1 {
     font-weight:bold;
 }
