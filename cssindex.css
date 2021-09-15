@@ -12,11 +12,11 @@ ul a{
 .links {
     margin: auto;
     text-decoration: none;
-    text-align:left;
+    text-align:center;
     list-style-type: none;
     display: inline-block;
 }
 
-a:hover { 
+.class a:hover { 
     background-color: lightblue;
   }
