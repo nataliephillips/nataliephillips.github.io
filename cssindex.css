@@ -17,6 +17,6 @@ ul a{
     display: inline-block;
 }
 
-a:hover { 
+.links:hover { 
     background-color: lightblue;
   }
