@@ -16,3 +16,7 @@ ul a{
     list-style-type: none;
     display: inline-block;
 }
+
+a:hover { 
+    background-color: lightblue;
+  }
