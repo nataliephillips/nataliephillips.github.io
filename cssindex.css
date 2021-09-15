@@ -47,6 +47,10 @@ a{
 #row2 {
     font-weight: bold;
 }
+.photodescription {
+    font-weight: bold;
+    font-size: xx-large;
+}
 .ideas {
     font-size: large;
 }
