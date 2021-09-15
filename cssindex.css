@@ -35,15 +35,15 @@ a{
 .header {
     font-style: italic;
 }
-.row1 {
+#row1 {
     font-weight:bold;
 }
 
-.row2 {
+#row2 {
     font-weight:bold;
 }
 
-.row3 {
+#row3 {
     font-weight:bold;
 }
 @media only screen and (max-width: 600px) {
