@@ -32,6 +32,9 @@ a{
 #president:hover{
     font-weight: bold;
 }
+.age{
+    color: darkblue;
+}
 .header {
     font-style: italic;
 }
