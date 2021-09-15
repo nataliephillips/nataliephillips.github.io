@@ -36,6 +36,14 @@ a{
     }
   }
 
-.table {
+.row1 {
+    font-weight:bold;
+}
+
+.row2 {
+    font-weight:bold;
+}
+
+.row3 {
     font-weight:bold;
 }
