@@ -38,7 +38,9 @@ a{
 #row1 {
     font-weight: bold;
 }
-
+#me{
+    font-size: small; 
+}
 #row2 {
     font-weight: bold;
 }
