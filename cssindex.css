@@ -5,7 +5,7 @@ h3{
     font-style: italic;
     color: lightblue;
 }
-ul a{
+a{
     color: pink;
     text-decoration: none;
 }
@@ -24,9 +24,14 @@ ul a{
 #word:hover{
     font-weight: bold;
 }
-#word:hover{
+#github:hover{
     font-weight: bold;
 }
 #president:hover{
     font-weight:bold
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
