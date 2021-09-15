@@ -16,8 +16,10 @@ a{
     list-style-type: none;
     display: inline-block;
 }
-.body {
+.outerbody {
     color: darkblue;
+}
+.body {
     background-color: lightcyan;
 }
 .links:hover { 
