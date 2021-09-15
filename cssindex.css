@@ -17,7 +17,8 @@ a{
     display: inline-block;
 }
 .body {
-    text-decoration: blue;
+    text-decoration: darkblue;
+    background-color: lightcyan;
 }
 .links:hover { 
     background-color: lightblue;
