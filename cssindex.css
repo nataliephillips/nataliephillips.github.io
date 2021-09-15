@@ -20,7 +20,6 @@ a{
 .links:hover { 
     background-color: lightblue;
   }
-
 #word:hover{
     font-weight: bold;
 }
@@ -30,11 +29,6 @@ a{
 #president:hover{
     font-weight: bold;
 }
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
-  }
 .header {
     font-style: italic;
 }
@@ -49,3 +43,8 @@ a{
 .row3 {
     font-weight:bold;
 }
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
