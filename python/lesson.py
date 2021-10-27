@@ -1,3 +1,5 @@
+
+
 print('Hello world!')
 print('What is your name?') # ask for their name
 myName = input()
@@ -56,4 +58,30 @@ print ("my name is ")
 for i in range (5):
     print ("jimmy 5 times: " + str(i))
 # don't need to add it numbers explicitly
-#  
+# to specficy the range use two digits in the () EXAMPLE (1,6) : this will have a start and end integer
+#with three integers in the paranthesis, it shows how much you want to increase the integer by
+import random
+random.randint (1, 10) #will give you a random integer betwene 1 and 10
+from random import * #if you use this, then you dont need to say "random." before "randint"
+#to be able to terminate the function, 
+import sys 
+print ("hello")
+sys.exit()
+print ("hi")
+# in the example above, the program will print out the hello, but not hi
+>>> hypotenuse (3.0, 4.0)
+'''
+def is_even(n):
+    if n%2 == 0:
+        return True
+        print ("its even!")
+    else:
+        return False
+        print ("its odd")
+
+# this comment is called a docstring and indicates a doctest
+# whenever you see a dollar sign, it means it typed into terminal below
+# when you see python3, /usr/bin/python3 : copying and pasting the >>>
+
+#!/bin/python
+'''
