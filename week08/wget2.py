@@ -9,10 +9,18 @@ import argparse
 import requests
 
 # process command line args
-parser = argparse.ArgumentParser(description='Download a webpage')
-parser.add_argument('url', help='the url to download from the internet')
-parser.add_argument('filename', help='the path on the local computer to save the file')
-args = parser.parse_args()
+# needs to have two parameters when you use the command
+parser = argparse.ArgumentParser(description='Download a webpage') # intializes getting info from a url, descriptive in terms of telling the users what the code does
+parser.add_argument('url', help='the url to download from the internet') 
+parser.add_argument('filename', help='the path on the local computer to save the file') # corresponds with helping the poeople using the code
+args = parser.parse_args() # order matters when people either put the url and filename in
+#to make the filename not always inputted by the user, you can put a default filename
+    # put two dashes before the filename and then specfiy a defualt
+    # parser.add_argument'--filename', defualt = 'dracula.html'
+# can make both arguements optional by adding more defaults
+    # when specifying a different values for filename and url, just add --url or --filename
+
+
 
 # download the url
 r = requests.get(args.url)
